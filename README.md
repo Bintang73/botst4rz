@@ -8,12 +8,15 @@ Siapin alat dan bahannya.
 > 2 handphone (1 buat jalanin sc, 1 buat scan qr)
 > internet yang memadai, kalo lu gapunya kuota pake kuota kemendikbud ae
 > aplikasi whatsapp
+> aplikasi termux
 > kopi
 ```
 
 ### Cara Installnya
 Sebelum lu jalanin sc nya install dulu lah.
 ```bash
+> kalo lu belum punya apk termux, download di playstore
+> masuk ke apk termux lalu ketik dibawah ini!
 > git clone https://github.com/Bintang73/botst4rz.git
 > cd botst4rz
 > bash install.sh
