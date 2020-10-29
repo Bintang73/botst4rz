@@ -1,0 +1,43 @@
+{
+  "name": "st4rzbot",
+  "version": "1.0.0",
+  "description": "bot whatsapp lewat hp doang",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.2.1",
+    "brainly-scraper": "^1.0.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cloudconvert": "^2.1.5",
+    "got": "^11.8.0",
+    "gulp": "^4.0.2",
+    "gulp-webp": "^4.0.1",
+    "image-to-base64": "^2.1.1",
+    "moment": "^2.29.1",
+    "node-gtts": "^2.0.2",
+    "request": "^2.88.2",
+    "text-to-mp3": "^1.0.4",
+    "urlencode": "^1.1.0",
+    "webp-simple-converter": "^0.0.6",
+    "ytdl-core": "^3.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bintang73/botst4rz.git"
+  },
+  "keywords": [
+    "k"
+  ],
+  "author": "Abdul Muttaqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bintang73/botst4rz/issues"
+  },
+  "homepage": "https://github.com/Bintang73/botst4rz#readme"
+}
