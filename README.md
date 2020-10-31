@@ -41,6 +41,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Twitter Downloader               |
 |       ✅       | Facebook Downloader              |
 |       ✅       | Wikipedia                        |
+|       ✅       | Say                              |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
 
