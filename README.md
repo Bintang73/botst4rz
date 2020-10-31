@@ -36,6 +36,11 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Anime                            |
 |       ✅       | Suara Google                     |
 |       ✅       | Quran                            |
+|       ✅       | Youtube MP3 Downloader           |
+|       ✅       | Intagram Downloader              |
+|       ✅       | Twitter Downloader               |
+|       ✅       | Facebook Downloader              |
+|       ✅       | Wikipedia                        |
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
 
