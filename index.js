@@ -15,8 +15,8 @@ const info = require("./lib/info.js");
 const BotName = 'LEE BOT 🤖'; // Nama Bot Whatsapp
 const instagramlu = 'ga punya'; // Nama Instagramlu cok
 const whatsapplu = '0823-3823-6592'; // Nomor whatsapplu cok
-const Facebook = 'https://m.facebook.com/Rizkiii.29?ref=bookmarks'; // link fblu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
+const facebook = 'https://m.facebook.com/Rizkiii.29?ref=bookmarks'; // link fblu cok
 //
 const
 {
