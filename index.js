@@ -535,7 +535,7 @@ conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType
       }
 
    }
-/*   if (text.includes("#yt"))
+   if (text.includes("#yt"))
    {
       const url = text.replace(/#yt/, "");
       const exec = require('child_process').exec;
