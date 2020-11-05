@@ -12,7 +12,7 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ST4RZ BOT 🤖'; // Nama Bot Whatsapp
+const BotName = 'HANZ BOTʕ·ᴥ·ʔ'; // Nama Bot Whatsapp
 const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
 const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
