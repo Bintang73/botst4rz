@@ -54,7 +54,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Donate                           |
 
 ## Special Thanks to
-Muhammad Tsaqif Fathurrizqi
+* [`Muhammad Tsaqif Fathurrizqi`](https://github.com/MuhammadTsaqif/botst4rz)
 
 ### Donate
 * [`Saweria`](https://saweria.co/donate/bintangnurpradana)
