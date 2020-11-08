@@ -124,7 +124,7 @@ conn.sendMessage(id, teks, MessageType.text)
 
 if (text.includes("#nulis")){
   const teks = text.replace(/#nulis /, "")
-axios.get(`https://st4rz.herokuapp.com/api/nulis?text${teks}`).then((res) => {
+axios.get(`https://st4rz.herokuapp.com/api/nulis?text=${teks}`).then((res) => {
     let hasil = `Download sendiri ya hasilnya dibawah, soalnya kalo dikirim langsung hasilnya blur\n\n${res.data.result.data}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
@@ -132,16 +132,16 @@ axios.get(`https://st4rz.herokuapp.com/api/nulis?text${teks}`).then((res) => {
 
 if (text.includes("#ytmp3")){
 const teks = text.replace(/#ytmp3 /, "")
-axios.get(`https://st4rz.herokuapp.com/api/yta?url=${teks}`).then((res) => {
-    let hasil = `Download sendiri melalui link dibawah ya, takut servernya down xixi..\n\nSize: ${res.data.filesize}\n\nLink: ${res.data.result}`;
+axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
+    let hasil = `Download sendiri melalui link dibawah ya, takut servernya down xixi..\n\nSize: ${res.data.filesize}\n\nLink: ${res.data.linkAudioOnly}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
 
 if (text.includes("#yt")){
 const teks = text.replace(/#yt /, "")
-axios.get(`https://st4rz.herokuapp.com/api/ytv?url=${teks}`).then((res) => {
-    let hasil = `Download sendiri melalui link dibawah ya, takut servernya down xixi..\n\nSize: ${res.data.filesize}\n\nLink: ${res.data.result}`;
+axios.get(`http://scrap.terhambar.com/yt?link=${teks}`).then((res) => {
+    let hasil = `Download sendiri melalui link dibawah ya, takut servernya down xixi..\n\nSize: ${res.data.filesize}\n\nLink: ${res.data.linkVideo}`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
