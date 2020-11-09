@@ -526,9 +526,28 @@ conn.sendMessage(id, 'kirim #ptl cewek/cowok\n\nContoh: #ptl cewek' ,MessageType
    {
       let is = m.message.conversation.toLocaleLowerCase()
 
-      if (is == '#pantun')
+      if (is == '#faktaunik')
       {
 
+         fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-results/main/random/faktaunix.txt')
+            .then(res => res.text())
+            .then(body => 
+            {
+               let splitnix = body.split('\n')
+               let randomnix = splitnix[Math.floor(Math.random() * splitnix.length)]
+               conn.sendMessage(id, faktaunik, MessageType.text)
+               console.log(randomnix)
+            });
+     
+    }
+
+   if (messageType === MessageType.text)
+   {
+      let is = m.message.conversation.toLocaleLowerCase()
+
+      if (is == '#pantun')
+      {
+         
          fetch('https://raw.githubusercontent.com/pajaar/grabbed-results/master/pajaar-2020-pantun-pakboy.txt')
             .then(res => res.text())
             .then(body =>
