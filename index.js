@@ -12,12 +12,12 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ST4RZ BOT 🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
+const BotName = 'LulNazi Bot'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/amzah.su'; // Nama Instagramlu cok
+const whatsapplu = '0896-5398-2239'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
+const grupch1 = 'https://chat.whatsapp.com/DrBrAULCTdY13kUGACmYyd'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://chat.whatsapp.com/BAW6ldofuM5ED0cB9JKeT4'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -313,6 +313,21 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 }
 else if (text == 'Thanks'){
 conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.text);
+}
+else if (text == 'p'){
+conn.sendMessage(id, 'iyaa apa' ,MessageType.text);
+}
+else if (text == 'zah'){
+conn.sendMessage(id, 'iyaa apa' ,MessageType.text);
+}
+else if (text == 'eng'){
+conn.sendMessage(id, 'Eng ing eng' ,MessageType.text);
+}
+else if (text == 'cok'){
+conn.sendMessage(id, 'iyaa apa cok' ,MessageType.text);
+}
+else if (text == 'tq'){
+conn.sendMessage(id, 'sama sama' ,MessageType.text);
 }
 else if (text == '#donate'){
 const corohelp = await get.get('https://covid19.mathdro.id/api/countries/id').json()
