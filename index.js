@@ -12,12 +12,9 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'ST4RZ BOT 🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/bintang_nur_pradana'; // Nama Instagramlu cok
-const whatsapplu = '0819-4698-3575'; // Nomor whatsapplu cok
+const BotName = 'MAULBOT'; // Nama Bot Whatsapp
+const whatsapplu = '0819-0535-3640'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/FsAlnxqz6y2BhCQi5ayCLG'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/KLW3UlFfeaH36Ucm5zRfCz'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -225,7 +222,7 @@ axios.get('https://api.banghasan.com/quran/format/json/acak').then((res) => {
 })
 }
 else if (text == 'assalamualaikum'){
-conn.sendMessage(id, '3aalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
+conn.sendMessage(id, 'Waalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, ada yang bisa saya bantu? kalo bingung ketik #help ya say..' ,MessageType.text);
