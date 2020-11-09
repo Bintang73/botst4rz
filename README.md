@@ -1,5 +1,5 @@
-# botst4rz
-BOT WHATSAPP HP BINTANG NUR PRADANA
+# Tsaqif Bot 🤖
+BOT WHATSAPP HP MUHAMMAD TSAQIF FATHURRIZQI
 
 ### Alat dan Bahan
 Siapin alat dan bahannya.
@@ -17,9 +17,17 @@ Sebelum lu jalanin sc nya install dulu lah.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
-> git clone https://github.com/Bintang73/botst4rz.git
+> pkg install git
+> apt update && apt upgrade
+> git clone https://github.com/MuhammadTsaqif/botst4rz.git
 > cd botst4rz
-> bash install.sh
+> pkg install wget
+> pkg install ffmpeg
+> pkg install nodejs
+> npm i -g cwebp
+> npm i -g ytdl
+> npm i
+> npm i got 
 > node index.js
 > Tinggal scan qr dah
 ```
@@ -46,7 +54,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Donate                           |
 
 ## Special Thanks to
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
+* [`Muhammad Tsaqif Fathurrizqi`](https://github.com/MuhammadTsaqif/botst4rz)
 
 ### Donate
 * [`Saweria`](https://saweria.co/donate/bintangnurpradana)
