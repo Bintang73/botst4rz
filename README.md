@@ -1,42 +1,44 @@
-# botst4rz
+# BOTST4RZ
 BOT WHATSAPP HP BINTANG NUR PRADANA
 
-### Alat dan Bahan
-Siapin alat dan bahannya.
+### Alat Dan Bahan
+Siapin Alat Dan Bahannya.
 ```bash
-> niat
-> 2 handphone (1 buat jalanin sc, 1 buat scan qr)
-> internet yang memadai, kalo lu gapunya kuota pake kuota kemendikbud ae
-> aplikasi whatsapp
-> aplikasi termux
-> kopi
+> Niat
+> 2 Handphone (1 Buat Jalanin Sc, 1 Buat Scan Qr)
+> Internet Yang Memadai, Kalo Lu Gapunya Kuota Pake Kuota Kemendikbud Ae Awokwaokwaokwaok
+> Aplikasi WhatsApp
+> Aplikasi Termux
+> Kopi
 ```
 
 ### Cara Installnya
-Sebelum lu jalanin sc nya install dulu lah.
+Sebelum Lu Jalanin Sc Nya Install Dulu Lah.
 ```bash
-> kalo lu belum punya apk termux, download di playstore
-> masuk ke apk termux lalu ketik dibawah ini!
-> git clone https://github.com/Bintang73/botst4rz.git
+> Kalo Lu Belum Punya Apk Termux, Download Di Playstore
+> Masuk Ke Apk Termux Lalu Ketik Dibawah Ini!
+> git clone Https://github.Com/Bintang73/botst4rz.Git
 > cd botst4rz
-> bash install.sh
+> bash install.Sh
 > node index.js
-> Tinggal scan qr dah
+> Tinggal Scan QR Dah
 ```
+### Kalo Lu Masih Bingung Tonton Video Gw Yang Ini
+* [`Klik Gw`](https://youtu.be/uQUrimmKv8A) 
 
-## Features
+## Fitur
 
-| st4rz BOT       |                Feature           |
-| :-----------: | :--------------------------------: |
+|   ST4RZ BOT    |              Feature             |
+| :------------: | :------------------------------: |
 |       ✅       | Sticker Creator                  |
-|       ✅       | Magernulis                       |
+|       ✅       | MagerNulis                       |
 |       ✅       | Pantun                           |
 |       ✅       | Youtube Downloader               |
 |       ✅       | Quotes                           |
 |       ✅       | Anime                            |
 |       ✅       | Suara Google                     |
-|       ✅       | Quran                            |
-|       ✅       | Youtube MP3 Downloader           |
+|       ✅       | Al-Quran                         |
+|       ✅       | Youtube Mp3 Downloader           |
 |       ✅       | Intagram Downloader              |
 |       ✅       | Twitter Downloader               |
 |       ✅       | Facebook Downloader              |
@@ -46,7 +48,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Donate                           |
 
 ## Special Thanks to
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
+* [`fdciabdul/termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
 
 ### Donate
 * [`Saweria`](https://saweria.co/donate/bintangnurpradana)
