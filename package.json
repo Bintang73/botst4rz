@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bintang73/botst4rz.git"
+    "url": "git+https://github.com/benisadewa/botst4rz.git"
   },
   "keywords": [
     "k"
@@ -37,7 +37,7 @@
   "author": "Abdul Muttaqin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Bintang73/botst4rz/issues"
+    "url": "https://github.com/benisadewa/botst4rz/issues"
   },
-  "homepage": "https://github.com/Bintang73/botst4rz#readme"
+  "homepage": "https://github.com/benisadewa/botst4rz#readme"
 }
